@@ -2,7 +2,7 @@
 ## Kayla Haeussler
 ### Fall 2024
 This repo contains a Noisy Channel Spell Checker I coded for 
-# The assignment description was as follows: 
+## The assignment description was as follows: 
 Build a spelling corrector that corrects corrupted words according to a noisy-channel model composed of
 a unigram model and weighted-Levenshtein-distance error model. You may use this word frequency data and the provided data files.
 Your implementation should provide a single-word spelling-correction function of the form
