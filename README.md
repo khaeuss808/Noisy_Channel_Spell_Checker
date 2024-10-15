@@ -1,3 +1,17 @@
+# Noisy Channel Spell Checker
+## Kayla Haeussler
+### Fall 2024
+This repo contains a Noisy Channel Spell Checker I coded for 
+# The assignment description was as follows: 
+Build a spelling corrector that corrects corrupted words according to a noisy-channel model composed of
+a unigram model and weighted-Levenshtein-distance error model. You may use this word frequency data and the provided data files.
+Your implementation should provide a single-word spelling-correction function of the form
+correct(original: str) -> str.
+Document any modeling assumptions that you make.
+Invent some specific scenarios in which your spelling corrector works well and some scenarios
+where you think it could do better. Explain why it is making poor decisions and suggest one or more
+ways it could be improved.
+
 ## Assumptions
 I made the following assumptions when constructing my model:
 - only have incorrectly spelled words, not words that are real words but are not used as intended
